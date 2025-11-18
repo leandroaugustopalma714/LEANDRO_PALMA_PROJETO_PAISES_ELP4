@@ -33,17 +33,33 @@ namespace ProjetoElp4Paises
 
         public override void Excluir()
         {
-            string aux;
-            oFrmCadPaises.ConhecaObjeto(oPais, aCtrlPaises);
-            oFrmCadPaises.LimpaTxt();
-            oFrmCadPaises.CarregaTxt();
-            oFrmCadPaises.BloquearTxt();
-            aux = oFrmCadPaises.btnSalvar.Text;
-            oFrmCadPaises.btnSalvar.Text = "Excluir";
-            oFrmCadPaises.ShowDialog();
-            oFrmCadPaises.DesbloquearTxt();
-            oFrmCadPaises.btnSalvar.Text = aux;
+            // 1. Verifica se 'oPais' foi preenchido pelo clique
+            if (oPais == null || oPais.Codigo == 0)
+            {
+                MessageBox.Show("Por favor, selecione um país na lista para excluir.", "Nenhum item selecionado");
+                return;
+            }
 
+            // 2. Pede confirmação
+            if (MessageBox.Show($"Tem certeza que deseja excluir o país: {oPais.Pais}?",
+                                "Confirmação", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                try
+                {
+                    // 3. Manda o controlador excluir
+                    aCtrlPaises.Excluir(oPais);
+
+                    MessageBox.Show("País excluído com sucesso!");
+
+                    // 4. Atualiza o ListView (lendo da coleção em memória)
+                    this.CarregaLV();
+                    oPais = new Paises(); // Limpa o objeto
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Erro ao excluir: " + ex.Message);
+                }
+            }
         }
 
         public override void Alterar()
@@ -85,5 +101,30 @@ namespace ProjetoElp4Paises
             this.CarregaLV();
         }
 
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ListV_SelectedIndexChanged(object sender, EventArgs e)
+        {
+          
+            if (ListV.SelectedItems.Count > 0)
+            {
+                try
+                {
+                    string idSelecionado = ListV.SelectedItems[0].SubItems[0].Text;
+                    int id = Convert.ToInt32(idSelecionado);
+
+                    // Agora o 'aCtrlPaises.Carregar(id)' vai funcionar!
+                    oPais = aCtrlPaises.Carregar(id);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Erro ao selecionar o item: " + ex.Message);
+                    oPais = new Paises();
+                }
+            }
+        }
     } 
 }

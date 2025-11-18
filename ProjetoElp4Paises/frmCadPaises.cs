@@ -12,6 +12,7 @@ namespace ProjetoElp4Paises
     {
          Paises oPais;
         CtrlPaises aCtrlPaises;
+
         public frmCadPaises()
         {
             InitializeComponent();
@@ -25,16 +26,36 @@ namespace ProjetoElp4Paises
         }
         public override void Salvar()
         {
-           //if (MessageDlg("CONFIRMA S/N?") == "S")
-                oPais.Codigo = Convert.ToInt32(txtCodigo.Text);
-                oPais.Pais = txtPais.Text;
-                oPais.Sigla = txtsigla.Text;
-                oPais.Ddi = txtDDI.Text;
-                oPais.Moeda = txtMoeda.Text;
-               // MessageBox.Show("salvo");
-                MessageBox.Show(aCtrlPaises.Salvar(oPais));
+            // Pega os dados da tela
+            oPais.Codigo = Convert.ToInt32(txtCodigo.Text);
+            oPais.Pais = txtPais.Text;
+            oPais.Sigla = txtsigla.Text;
+            oPais.Ddi = txtDDI.Text;
+            oPais.Moeda = txtMoeda.Text;
 
-            //aCtrl.Salvar(oPais);    
+            try
+            {
+                // AQUI ESTÁ A LÓGICA:
+                // 'btnSalvar' é o nome do botão no SEU FORMULÁRIO BASE (frmCadastros)
+                // Se o texto dele foi mudado para "Excluir"...
+                if (this.btnSalvar.Text == "Excluir")
+                {
+                    // ...então chama o Excluir
+                    MessageBox.Show(aCtrlPaises.Excluir(oPais));
+                }
+                else
+                {
+                    // ...senão, chama o Salvar (comportamento normal)
+                    MessageBox.Show(aCtrlPaises.Salvar(oPais));
+                }
+
+                // Fecha o formulário de cadastro após a operação
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocorreu um erro: " + ex.Message);
+            }
 
         }
 
@@ -73,8 +94,9 @@ namespace ProjetoElp4Paises
             this.txtDDI.Enabled = true;
             this.txtMoeda.Enabled=true;
         }
-
-        public void label6_Click(object sender, EventArgs e)
+        
+   
+public void label6_Click(object sender, EventArgs e)
         {
 
         }

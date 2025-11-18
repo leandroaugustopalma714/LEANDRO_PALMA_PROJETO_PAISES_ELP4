@@ -9,14 +9,14 @@ using System.Windows.Forms;
 namespace ProjetoElp4Paises
 {
     public partial class frmConsEstados : ProjetoElp4Paises.frmConsultas
-    { 
-        frmCadEstados  ofrmCadEstados;
+    {
+        frmCadEstados ofrmCadEstados;
         Estados oEstado;
         CtrlEstados aCtrlEstados;
         public frmConsEstados()
         {
             InitializeComponent();
-            
+
         }
         public override void Pesquisar()
         {
@@ -25,7 +25,7 @@ namespace ProjetoElp4Paises
         public override void Incluir()
         {
             ofrmCadEstados.LimpaTxt();
-           // ofrmCadEstados = new frmCadEstados();
+            // ofrmCadEstados = new frmCadEstados();
             ofrmCadEstados.ConhecaObjeto(oEstado, aCtrlEstados);
             ofrmCadEstados.ShowDialog();
             this.CarregaLV();
@@ -33,17 +33,34 @@ namespace ProjetoElp4Paises
 
         public override void Excluir()
         {
-            
-            string aux;
-            ofrmCadEstados.ConhecaObjeto(oEstado, aCtrlEstados);
-            ofrmCadEstados.LimpaTxt();
-            ofrmCadEstados.CarregaTxt();
-            ofrmCadEstados.BloquearTxt();
-            aux = ofrmCadEstados.btnSalvar.Text;
-            ofrmCadEstados.btnSalvar.Text = "Excluir";
-            ofrmCadEstados.ShowDialog();
-            ofrmCadEstados.DesbloquearTxt();
-            ofrmCadEstados.btnSalvar.Text = aux;
+
+            // 1. Verifica se 'oEstado' foi preenchido pelo clique
+            if (oEstado == null || oEstado.Codigo == 0)
+            {
+                MessageBox.Show("Por favor, selecione um Estado na lista para excluir.", "Nenhum item selecionado");
+                return;
+            }
+
+            // 2. Pede confirmação
+            if (MessageBox.Show($"Tem certeza que deseja excluir o estado: {oEstado.Estado}?",
+                                "Confirmação", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                try
+                {
+                    // 3. Manda o controlador excluir
+                    aCtrlEstados.Excluir(oEstado);
+
+                    MessageBox.Show("País excluído com sucesso!");
+
+                    // 4. Atualiza o ListView (lendo da coleção em memória)
+                    this.CarregaLV();
+                    oEstado = new Estados(); // Limpa o objeto
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Erro ao excluir: " + ex.Message);
+                }
+            }
         }
 
         public override void Alterar()
@@ -54,7 +71,7 @@ namespace ProjetoElp4Paises
         }
         protected override void CarregaLV()
         {
-
+           ListV.Items.Clear();
             foreach (var oEstado in aCtrlEstados.Listar())
             {
                 ListViewItem item = new ListViewItem(Convert.ToString(oEstado.Codigo));
@@ -84,7 +101,25 @@ namespace ProjetoElp4Paises
             this.CarregaLV();
         }
 
-    }
+        private void ListV_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(ListV.SelectedItems.Count > 0)
+            {
+                try
+                {
+                    string idSelecionado = ListV.SelectedItems[0].SubItems[0].Text;
+                    int id = Convert.ToInt32(idSelecionado);
 
+                    // Agora o 'aCtrlestados.Carregar(id)' vai funcionar!
+                    oEstado = aCtrlEstados.Carregar(id);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Erro ao selecionar o item: " + ex.Message);
+                    oEstado = new Estados();
+                }
+            }
+        }
+    }
 }
 

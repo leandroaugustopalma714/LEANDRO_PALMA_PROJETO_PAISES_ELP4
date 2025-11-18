@@ -1,0 +1,383 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\daoestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\daoestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\daopaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\daopaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\colpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\colpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\colestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\colestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\ctrlpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\ctrlpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\ctrlestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\ctrlestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\frmconsestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\estados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\estados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\frmconspaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\frmconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\frmconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\frmconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\frmconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\colecoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\colecoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\frmcadastros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\frmcadastros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\frmcadpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\frmcadpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\frmcadastros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\frmcadastros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\frmcadpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\frmcadpaises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\frmcadestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\frmcadestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\daocidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\daocidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|c:\\users\\leandropalma\\github\\projetopaises\\projeto_paises\\projetoelp4paises\\cidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FAA6D1-FE78-493B-BA81-EA9B678155EE}|ProjetoElp4Paises\\ProjetoElp4Paises.csproj|solutionrelative:projetoelp4paises\\cidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ColEstados.cs",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\ColEstados.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\ColEstados.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\ColEstados.cs",
+              "RelativeToolTip": "ProjetoElp4Paises\\ColEstados.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:00:59.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CtrlEstados.cs",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\CtrlEstados.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\CtrlEstados.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\CtrlEstados.cs",
+              "RelativeToolTip": "ProjetoElp4Paises\\CtrlEstados.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwHEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:57:06.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Estados.cs",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\Estados.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\Estados.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\Estados.cs",
+              "RelativeToolTip": "ProjetoElp4Paises\\Estados.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:55:20.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmConsultas.cs",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmConsultas.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\frmConsultas.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmConsultas.cs",
+              "RelativeToolTip": "ProjetoElp4Paises\\frmConsultas.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:52:22.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmConsultas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmConsultas.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\frmConsultas.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmConsultas.cs [Design]",
+              "RelativeToolTip": "ProjetoElp4Paises\\frmConsultas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:52:21.392Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmConsEstados.cs",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmConsEstados.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\frmConsEstados.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmConsEstados.cs",
+              "RelativeToolTip": "ProjetoElp4Paises\\frmConsEstados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:52:19.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmConsEstados.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmConsEstados.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\frmConsEstados.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmConsEstados.cs [Design]",
+              "RelativeToolTip": "ProjetoElp4Paises\\frmConsEstados.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:52:18.083Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CtrlPaises.cs",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\CtrlPaises.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\CtrlPaises.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\CtrlPaises.cs",
+              "RelativeToolTip": "ProjetoElp4Paises\\CtrlPaises.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:41:54.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Colecoes.cs",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\Colecoes.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\Colecoes.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\Colecoes.cs",
+              "RelativeToolTip": "ProjetoElp4Paises\\Colecoes.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:41:24.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ColPaises.cs",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\ColPaises.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\ColPaises.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\ColPaises.cs",
+              "RelativeToolTip": "ProjetoElp4Paises\\ColPaises.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwDcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:38:30.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmConsPaises.cs",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\FrmConsPaises.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\FrmConsPaises.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\FrmConsPaises.cs",
+              "RelativeToolTip": "ProjetoElp4Paises\\FrmConsPaises.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAhwEoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:34:00.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmConsPaises.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\FrmConsPaises.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\FrmConsPaises.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\FrmConsPaises.cs [Design]",
+              "RelativeToolTip": "ProjetoElp4Paises\\FrmConsPaises.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:33:53.585Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmCadastros.cs",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmCadastros.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\frmCadastros.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmCadastros.cs",
+              "RelativeToolTip": "ProjetoElp4Paises\\frmCadastros.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:29:29.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmCadastros.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmCadastros.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\frmCadastros.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmCadastros.cs [Design]",
+              "RelativeToolTip": "ProjetoElp4Paises\\frmCadastros.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:29:28.162Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmCadPaises.cs",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmCadPaises.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\frmCadPaises.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmCadPaises.cs",
+              "RelativeToolTip": "ProjetoElp4Paises\\frmCadPaises.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAiwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:27:24.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmCadPaises.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmCadPaises.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\frmCadPaises.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmCadPaises.cs [Design]",
+              "RelativeToolTip": "ProjetoElp4Paises\\frmCadPaises.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:27:23.756Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmCadEstados.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmCadEstados.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\frmCadEstados.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\frmCadEstados.cs [Design]",
+              "RelativeToolTip": "ProjetoElp4Paises\\frmCadEstados.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:27:17.509Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DaoEstados.cs",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\DaoEstados.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\DaoEstados.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\DaoEstados.cs",
+              "RelativeToolTip": "ProjetoElp4Paises\\DaoEstados.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAwwDMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:19:46.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DaoPaises.cs",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\DaoPaises.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\DaoPaises.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\DaoPaises.cs",
+              "RelativeToolTip": "ProjetoElp4Paises\\DaoPaises.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAEwGsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:15:07.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DaoCidades.cs",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\DaoCidades.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\DaoCidades.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\DaoCidades.cs",
+              "RelativeToolTip": "ProjetoElp4Paises\\DaoCidades.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:15:05.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Cidades.cs",
+              "DocumentMoniker": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\Cidades.cs",
+              "RelativeDocumentMoniker": "ProjetoElp4Paises\\Cidades.cs",
+              "ToolTip": "C:\\Users\\LeandroPalma\\GitHub\\ProjetoPaises\\Projeto_Paises\\ProjetoElp4Paises\\Cidades.cs",
+              "RelativeToolTip": "ProjetoElp4Paises\\Cidades.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:48:28.15Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

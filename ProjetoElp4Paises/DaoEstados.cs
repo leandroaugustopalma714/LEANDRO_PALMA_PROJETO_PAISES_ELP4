@@ -9,10 +9,10 @@ namespace ProjetoElp4Paises
 {
     internal class DaoEstados : DAO<Estados>
     {
-        public DaoEstados()
+        /*public DaoEstados()
         {
 
-        }
+        }*/
         public override string Excluir(object obj)
         {
             return null;

@@ -44,7 +44,7 @@ namespace ProjetoElp4Paises
             Salvar();
             Sair();
         }
-
+        
         protected void txtDataCad_TextChanged(object sender, EventArgs e)
         {
 

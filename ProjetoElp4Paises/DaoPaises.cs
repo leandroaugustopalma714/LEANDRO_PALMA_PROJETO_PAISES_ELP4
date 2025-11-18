@@ -12,7 +12,26 @@ namespace ProjetoELP4_Paisess
     {
         public override string Excluir(object obj)
         {
-            return null;
+            // 1. Converter o objeto para o tipo Paises
+            Paises oPais = (Paises)obj;
+            string mOk = "";
+
+            // 2. Definir a query SQL de exclusão (minúsculas, como no resto do código)
+            string mSql = "delete from paises where id = @id";
+
+            // 3. Usar o SqlCommand para executar
+            using (SqlCommand cmd = new SqlCommand(mSql, cnn))
+            {
+                // 4. Adicionar o parâmetro de ID
+                cmd.Parameters.AddWithValue("@id", oPais.Codigo);
+
+                // 5. Executar a query
+                cmd.ExecuteNonQuery();
+
+                // 6. Retornar o ID do objeto excluído (padrão do método Salvar)
+                mOk = oPais.Codigo.ToString();
+            }
+            return mOk;
         }
         public override string Salvar(object obj)
         {

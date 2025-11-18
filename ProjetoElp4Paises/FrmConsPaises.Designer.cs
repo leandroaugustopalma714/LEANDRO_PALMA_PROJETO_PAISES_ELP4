@@ -34,6 +34,10 @@
             this.colMoeda = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
+            // btnExcluir
+            // 
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
+            // 
             // ListV
             // 
             this.ListV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -41,6 +45,7 @@
             this.colSigla,
             this.colDDI,
             this.colMoeda});
+            this.ListV.SelectedIndexChanged += new System.EventHandler(this.ListV_SelectedIndexChanged);
             // 
             // btnSair
             // 
